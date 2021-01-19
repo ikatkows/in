@@ -6,9 +6,9 @@ metadata:
 spec:
   releaseName: prometheus-adapter
   chart:
-    repository: https://kubernetes-charts.storage.googleapis.com/
-    name: prometheus-adapter
-    version: 2.5.1
+    git: https://github.com/DirectXMan12
+    ref: master
+    path: /k8s-prometheus-adapter
   values:
     prometheus:
       url: http://prometheus.monitoring-system
